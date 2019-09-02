@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tips.Tips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textSize="18sp"
+            android:paddingStart="25dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="15dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. Name and Address\n
+
+Like a sales invoice, the first piece of information that you need to include is your business name and address. Make sure that you use the same address that you registered to obtain your GST number with. If you have multiple offices in different states, then use the address that’s on your registration.
+
+\n\n2. GST/GSTIN Number
+
+This is the alpha-numeric number that was assigned to you. It’s needed to verify that you’re registered. In India, this number is 15-digits long with the first two digits representing the state code followed by the the PAN number of the taxpayer.
+
+\n\n3. GST Tax Invoice Number\n
+
+Like a regular invoice, you’ll need a consecutive serial number that contains only alphabets and/or numerals that is unique to that specific invoice.
+
+\n\n4. Date of GST Invoice\n
+
+This is simply the date that the GST tax invoice was issued. In most cases, this is within 30 days from the date that the service was supplied.
+
+\n\n5. Recipient Details in GST Invoice\n
+
+You’re required to include the name, Address, GST/GSTIN number, and the address of the customer. In countries like India you’ll also have to include the name of the State they’re located and its code.
+
+\n\n6. HSN Code or SAC Code\n
+
+HSN is the abbreviation for Harmonized System of Nomenclature and is the internationally accepted product coding system that is used to maintain uniformity in classification of goods. SAC stands for Service Accounting Codes and are adopted by the Central Board of Excise and Customs (CBEC) for identification of the services that you provided.
+
+\n\n7. Description of Goods or Description of Services\n
+
+Like a sales invoice, you also need to list a description of the goods or services provided and the quantity sold.
+
+\n\n8. Total Value of Sales and Taxable Value of Sales\n
+
+One of the most important components of a GST tax invoice is both the total value of sales and taxable value of sales. They need to be clearly and separated on the invoice. If there is a discount or abatement, this can be accounted prior to mentioning the total value of sales.
+
+\n\n9. Rate of GST\n
+
+This is a 4-tier tax structure that will vary depending on the transaction. For example, essential items, like food, won’t be taxed, while luxury items like luxury cars will taxed the highest rate.
+
+\n\n10. Amount of GST Charged\n
+
+The type of supply, where the supply is made, and who the supply is made to will determine the GST rate. However, in countries like Australia, the GST rate is 10%. So, if your invoice is $100, then the calculated GST would be $10. There are handy GST calculators, like this one for Canada and this for India, that can assist you in determining the amount of GST you have to charge.
+
+\n\n11. Tax Payable on Reverse Charges\n
+
+If GST is payable on reverse charges, then you need to clearly mention this as ‘GST PAID ON REVERSE CHARGES’ in the GST Invoice.
+
+\n\n12. Revised Invoice\n
+
+If GST Invoice is a revised, this information also has to be clearly mentioned as ‘REVISED INVOICE’ in the GST Tax Invoice. Typically, the Invoice Number will remain the same as the one issued on the original invoice with the updated changes. If you’ve made any changes in the invoice number or date this also to be mentioned.
+
+\n\n13. Supplementary Invoice\n
+
+If the GST Invoice is a supplementary invoice to the previously issued Invoice, then you need to include ‘SUPPLEMENTARY INVOICE’ to the invoice number.
+
+\n\n14. Terms of Payment Details\n
+
+Similar to a sales invoice, a GTS tax invoice should also contain payment details like how you’re going to be paid and when the due date of the invoice.
+
+\n\n15. Signature of the Supplier\n
+
+A GST Tax Invoice has to be signed by the supplier, or at least an authorized signatory. A digital signature can also be used.
+Conclusion
+
+If you’re a business owner, then it’s in your best interest to register for a GST number since it improves tax systems by making them more efficient, effective, and transparent. As such, you may also be required to generate GST tax invoices. It may sound complicated, but it’s actually similar to a sales invoice. And, if you follow the tips listed above, then preparing a GST tax invoice should be a breeze."/>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

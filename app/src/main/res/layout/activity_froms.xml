@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forms.Forms">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/one"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Password Verification form"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Ministry of External Affairs"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/two"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Nationality and Age Certificate"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Government of India"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/three"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Caste Certificate "
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Welfare Schemes"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/four"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Property Card Application"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Land Affairs"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/five"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="7/12 Extract Application"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Land Affairs"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/six"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Shravanbal Scheme (Old Age Scheme)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Government of India"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/seven"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_greeb"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Sanjay Gandhi Niradhar Scheme"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="From: Government of India"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:gravity="start|center_vertical"
+                    android:text="Format: PDF (Offline/ Online)"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

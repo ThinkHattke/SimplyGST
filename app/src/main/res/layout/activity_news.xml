@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News.News">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/one"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Centre mops up Rs 7.88 lakh crore in direct tax during April-January 2019"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="Budget documents showed the government has revised its direct tax collection target to Rs 12 lakh crore in revised estimate from budgeted estimate of Rs 11.5 lakh crore."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/two"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Delay in release of GST share impinging Tamil Nadu finances: O Panneerselvam"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="Presenting the budget for 2019-20 in the assembly, the deputy CM said the delay in release the dues was impinging on the state's finances."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/three"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Taxmen send notices to Wakf boards for non-payment of service tax and GST"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="Out of the 30 Wakf boards in the country, only two -- Kerala State Wakf Board and Dawoodi Bohra Wakf, Mumbai -- are registered under the Goods and Services Tax (GST) regime."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/four"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="DATA STORY | Real estate may add 13% to India's GDP by 2025. Here are the hurdles that lie ahead"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="While the government has brought in laws such as RERA, over 80 percent of consumers are of the view that there has not been much change in the property buying experience"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/five"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Telcos seek GST waiver on payments to govt, Rs 35K-cr input credit adjustment"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="In a letter to Telecom Minister Manoj Sinha Monday, the Cellular Operators Association of India (COAI) said value-added tax or goods and services tax (GST) is not applicable to government services internationally, as they are considered 'out of scope' or regarded as non-economic activities or sovereign functions that are outside the ambit of tax."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/six"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Jubilant found guilty of not passing Rs 41.42 cr GST benefit on sale of Dominos Pizza products"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="The National Anti-Profiteering Authority (NAA) passed the order on an email complaint filed by a customer that Jubilant FoodWorks had not reduced the prices of 'Dominos Stuffed Garlic Bread' and 'Medium Veg Pizza' despite a cut in GST rate from 18 percent to 5 percent."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/seven"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_light_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:gravity="start|top"
+                    android:text="Rising revenue trend prompted government to peg 18% rise in FY20 GST collections: Revenue Secretary"
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="The central government plans to collect over Rs 7.61 lakh crore in GST next fiscal as against the revised estimate of over Rs 6.43 lakh crore to be collected in the current financial year ending March."
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

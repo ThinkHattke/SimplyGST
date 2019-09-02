@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bot"
+                    android:text="GST Bot"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:elevation="10dp"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_blue"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:id="@+id/eye"
+                    android:text="GST Eye"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:elevation="10dp"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_blue"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/form"
+                android:text="Simply Doc"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:elevation="10dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_blue"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/news"
+                android:text="GST News"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:elevation="10dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_blue"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/video"
+                android:text="Payments"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:elevation="10dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_blue"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/tips"
+                android:text="GST Rules"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:elevation="10dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_blue"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

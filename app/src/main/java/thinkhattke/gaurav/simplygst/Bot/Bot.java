@@ -80,7 +80,7 @@ public class Bot extends AppCompatActivity {
 
 
     private void initChatbot() {
-        final AIConfiguration config = new AIConfiguration("73a05c9a4dca4708bfc5c07041051240",
+        final AIConfiguration config = new AIConfiguration("d0b5bde206954bdabaec81ce2330d198",
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
         aiDataService = new AIDataService(this, config);
@@ -123,9 +123,6 @@ public class Bot extends AppCompatActivity {
         switch (type) {
             case USER:
                 layout = getUserLayout();
-                break;
-            case BOT:
-                layout = getBotLayout();
                 break;
             default:
                 layout = getBotLayout();
